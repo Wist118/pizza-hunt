@@ -7,7 +7,7 @@ const getPizzaList = () => {
       pizzaListArr.forEach(printPizza);
     })
     .catch(err => {
-      console.log(err)
+      console.log(err);
     });
 };
 
